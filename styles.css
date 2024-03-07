@@ -1,0 +1,92 @@
+.app__header{
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    font-family: 'pixelFontB',sans-serif;
+    font-size: 80px;
+}
+
+.app__warning{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+.display {
+    background: #D9CCC5;
+    margin:30px;
+    width: fit-content;
+    padding: 40px;
+}
+
+#imagemPrincipal {
+    margin: auto;
+    display: block;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+.telinha{
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.app__display-needs{
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    font-family: 'pixelFontB',sans-serif;
+    font-size: x-large;
+
+}
+
+@font-face {
+    font-family: 'pixelFontB';
+    src: url('pixels.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'pixelFontS';
+    src: url('Pixeled.ttf') format('truetype');
+}
+
+html{
+    background-color: #F2E6DF;
+    color: #594C47;
+    font-family: 'pixelFontS',sans-serif;
+}
+
+img { width: 500px; height: 500px;
+
+}
+
+.button{
+    cursor: pointer;
+
+}
+
+.pixel{
+    display: flex;
+}
+
+.app__button{
+    height: fit-content;
+}
+
+.app__button:disabled{
+    color: black !important;
+    filter: grayscale(80%);
+    fill: black !important;
+
+}
+
+.disable{
+    pointer-events: none;
+    filter: grayscale(100%);
+
+}
